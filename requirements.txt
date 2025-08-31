@@ -1,0 +1,36 @@
+# Core FastAPI & ASGI
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+
+# Vector Database
+pinecone-client>=4.1.0
+
+# LLM & Embeddings (Google Gemini)
+langchain-google-genai>=1.0.0
+google-generativeai>=1.10.0
+
+# LangChain (for text splitting, prompts, document handling)
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-text-splitters>=0.1.0
+
+# Cohere Reranking
+cohere>=5.0.0
+
+# Pydantic (data validation)
+pydantic>=2.0.0
+
+# Dotenv for environment variables
+python-dotenv>=1.0.0
+
+# Async utilities
+asyncio
+aiohttp
+
+# Optional: For hashing and security
+pysha3
+
+# Development & Debugging (optional)
+python-multipart  # if you plan to support file uploads
+requests
+httpx
