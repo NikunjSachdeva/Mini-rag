@@ -24,7 +24,7 @@ A high-performance, citation-aware RAG backend powered by **Pinecone, Google Gem
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mini-rag-pro.git
+git clone [https://github.com/your-username/mini-rag-pro.git](https://github.com/NikunjSachdeva/Mini-rag.git)
 cd mini-rag-pro
 ```
 
